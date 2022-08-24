@@ -1,13 +1,11 @@
-import InputWithLabel from './InputWithLabel';
-import Button from './Button';
 import {useState, useEffect} from 'react';
 
 function NinosConValor() {
-  let [kid_name, setKid_name] = useState('');
+  /*let [kid_name, setKid_name] = useState('');
   let [kid_lastname, setKid_lastname] = useState('');
   let [kid_CI, setKid_CI] = useState('');
   let [kid_birthday, setKid_birthday] = useState('');
-  let [resultado, setResultado] = useState('');
+  let [resultado, setResultado] = useState('')*/;
   let [kids, setKids] = useState([]);
   const LinkKids = 'https://ucb-tde-ninos-con-valor-api.herokuapp.com/api/kids';
 
