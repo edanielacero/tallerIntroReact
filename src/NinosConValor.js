@@ -26,6 +26,7 @@ function NinosConValor() {
           {kids.map(kids => (
             <li key={kids.id}>
               {kids.name}
+              {kids.lastName}
             </li>
           ))}
         </ul>
